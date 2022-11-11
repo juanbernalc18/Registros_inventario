@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.titulo {
+  color: rgb(255, 0, 234);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav {
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+
+nav > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #16bffd;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/*==============================header======================*/
+header .encabezado {
+  display: flex;
+  height: 130px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.encabezado h1 {
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+}
+.encabezado h2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+header {
+  width: 100%;
+  height: 800px;
+  background: #16bffd;
+  background: -webkit-linear-gradient(to right, #cb3066, #16bffd);
+  background: linear-gradient(to right, #cb3066, #16bffd);
+
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+/*==============================cuadro contenido======================*/
+.form-register {
+  width: 400px;
+  height: auto;
+  background: #000046;
+  background: -webkit-linear-gradient(to bottom, #1cb5e0, #000046);
+  background: linear-gradient(to bottom, #1cb5e0, #000046);
+  padding: 30px;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 16px;
+  border: none;
+  font-size: 15px;
+  color: rgb(126, 126, 126);
+}
+
+.form-register p {
+  height: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+  margin: 25px, 0;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-register a:hover {
+  color: rgb(0, 153, 255);
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  text-align: center;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);
+  background: linear-gradient(to bottom, #3a7bd5, #00d2ff);
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+/*====================================footer=============================*/
+.container-footer {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 15px;
+}
+
+.container-footer h4 {
+    color: rgb(184, 184, 184);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.titulo-final {
+    text-align: center;
+    font-size: 10px;
+    background: #304352;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d7d2cc, #304352);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+}
+
+.container h3 span {
+    background: rgb(3, 183, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 15px;
+}
